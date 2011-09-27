@@ -1,0 +1,16 @@
+<SOFTPKG NAME="OAuth-Tumblr" VERSION="0.0.1">
+    <ABSTRACT>OAuth for tumblr with OAuth::Lite::Consumer</ABSTRACT>
+    <AUTHOR>Makio Tsukamoto &lt;tsukamoto@gmail.com&gt;</AUTHOR>
+    <IMPLEMENTATION>
+        <REQUIRE NAME="CGI::" />
+        <REQUIRE NAME="CGI::Session" />
+        <REQUIRE NAME="Class::Accessor::Fast" />
+        <REQUIRE NAME="Class::ErrorHandler" />
+        <REQUIRE NAME="File::Slurp" />
+        <REQUIRE NAME="OAuth::Lite" />
+        <REQUIRE NAME="Test::More" />
+        <REQUIRE NAME="version::" />
+        <ARCHITECTURE NAME="MSWin32-x86-multi-thread-5.8" />
+        <CODEBASE HREF="" />
+    </IMPLEMENTATION>
+</SOFTPKG>
